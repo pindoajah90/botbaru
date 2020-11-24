@@ -310,7 +310,7 @@ module.exports = HandleMsg = async (pakforlay, message) => {
                     pakforlay.reply('Yahh proses gagal, kakak isinya sudah benar belum?..', id)
                 }
             } else {
-                pakforlay.reply(from, `Pemakaian ${prefix}quotemaker |isi quote|author|theme\n\ncontoh: ${prefix}quotemaker |aku sayang kamu|-pakforlay|random\n\nuntuk theme nya pakai random ya kak..`)
+                pakforlay.reply(from, `Pemakaian ${prefix}quotemaker |isi quote|author|theme\n\ncontoh: ${prefix}quotemaker |aku sayang kamu|-ipanpanjoel|random\n\nuntuk theme nya pakai random ya kak..`)
             }
             break
         case 'nulis':
